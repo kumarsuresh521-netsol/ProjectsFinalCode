@@ -56,6 +56,10 @@ angular.module('starter.controllers', [])
   console.log("huck");
 })
 
+.controller('AboutTheProjectCtrl', function($scope, $ionicScrollDelegate, $rootScope) {
+  console.log("huck");
+})
+
 .controller('CartCtrl', function($scope, $stateParams, $timeout, ionicMaterialMotion, ionicMaterialInk, $ionicHistory) {
     
     var myBeaAdd = angular.element( document.querySelector( '#beaconMsg' ) );
