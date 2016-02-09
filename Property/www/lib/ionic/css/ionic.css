@@ -7820,3 +7820,28 @@ a.button {
       background: url('../../../img/cute.jpg') !important;
       border-bottom: 5px solid #28a54c !important;"
   }
+  .catHead h3{
+	text-align:center;
+	margin-top:50%;
+	color:#fff;
+	background:rgba(0, 0, 0, 0.33);
+	padding:5px;
+}
+
+.catHead .mytabbox{
+	float:left;
+	width:100%;
+}
+.catHead .mytab{
+	text-align:center;
+	color: #fff;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.41);
+    width: 60%;
+    padding: 10px;
+    margin: 5px 20%;
+    text-decoration: none;
+    float: left;
+    border-radius: 25px;
+    border: 1px solid rgba(178, 178, 178, 0.39);
+}
