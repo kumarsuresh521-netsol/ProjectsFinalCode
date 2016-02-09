@@ -1,7 +1,10 @@
 <ion-view view-title="About The Project">
+    <ion-header-bar  class="bar-subheader bar-dark" ng-class="{'bar-subheader-slide-away': slideHeader}">
+        <div class="hero " style="background-image: url('img/img1.jpeg');"></div>
+     </ion-header-bar>
   <ion-content ng-class="{expanded:isExpanded}" class="condensed-space no-padding animate-fade-slide-in">
-        <div class="card abouttheproject">
-          <img src="img/img1.jpeg"/>
+        <div class="card abouttheproject" style="top: 200px;">
+ <!--         <img src="img/img1.jpeg"/> -->
           <h2 style="text-align: center;">About The Project</h2>
           <div dd-text-collapse dd-text-collapse-max-length="500" dd-text-collapse-text="{{description}}"></div>
           <h3>The Privilege Of Leisure</h3><hr />

@@ -7822,7 +7822,7 @@ a.button {
   }
   .catHead h3{
 	text-align:center;
-	margin-top:50%;
+	margin-top:80%;
 	color:#fff;
 	background:rgba(0, 0, 0, 0.33);
 	padding:5px;
@@ -7833,15 +7833,15 @@ a.button {
 	width:100%;
 }
 .catHead .mytab{
-	text-align:center;
-	color: #fff;
+    text-align: center;
+    color: #fff;
     font-size: 16px;
-    background: rgba(0, 0, 0, 0.41);
-    width: 60%;
+    background: rgba(0, 0, 0, 0.61);
+    width: 55%;
     padding: 10px;
-    margin: 5px 20%;
+    margin: 5px 23%;
     text-decoration: none;
     float: left;
-    border-radius: 25px;
-    border: 1px solid rgba(178, 178, 178, 0.39);
+    /* border-radius: 0; */
+    border: 2px solid rgb(178, 178, 178);
 }
